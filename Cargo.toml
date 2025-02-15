@@ -1,0 +1,8 @@
+[package]
+name = "rustman"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.29", features = ["derive"] }
+crates_io_api = "0.11.0"
